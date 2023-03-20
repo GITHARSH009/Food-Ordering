@@ -1,0 +1,196 @@
+/*css reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+
+#logo{
+    margin: 10px 34px;
+}
+#navbar ul{
+    display: flex;
+}
+/*#navbar::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}*/
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+     
+}
+#navbar ul li a{
+    color:aqua;
+    display: block;
+    padding: 3px 22px;
+     border-radius: 20px;
+     text-decoration: none;
+     font-family: 'Baloo Bhai', cursive;
+}
+#navbar ul li a:hover{
+    color: blue;
+     background-color: white;
+    
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 160px 200px;
+    justify-content: center;align-items: center;
+    height: 250px;
+    top: 0px;
+    left: 0px;
+    color: white;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../food/food1.jpg') no-repeat center center/cover ;
+    height: 80%;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Baloo Bhai', cursive;
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Baloo Bhai', cursive;
+}
+.btn{
+    padding: 6px 20px;
+    border: 3px solid white;
+    background-color: red;
+    color: black;
+    margin: 17px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: aqua;
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 2px;
+    text-align: center;
+    font-family: 'Baloo Bhai', cursive;
+}
+#services{
+    margin: 3px;
+    display: flex;
+    position: relative;
+}
+#services .box{
+    border: 2px solid brown;
+    margin: 3px ;
+    border-radius: 16px;
+    background-color: rgb(211, 205, 205);
+    padding: 10px;
+}
+#services .box img{
+    height: 100px;
+    width: 190px;
+    display: block;
+    margin: auto;
+
+}
+#client-section{
+    height: 300px;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 200px;
+    margin-top: 8px;
+    margin-inline: 50px;
+    width: 380px;
+
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../food/pizza.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 55%;
+    z-index:-1;
+    opacity: 0.6;
+}
+#contact{
+    position: relative;
+   padding-top: 60px;
+}
+#contact::before{
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 550px;
+   z-index: -1;
+   opacity: 0.7;
+   background: url('../food/contact us.jpg') no-repeat center center/cover;
+}
+footer{
+    background-color: black;
+    color: azure;
+    padding: 9px 20px;
+    text-align: center;
+    margin: 10px 0px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: bottom 50px; 
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.1rem;
+    font-family: 'Baloo Bhai', cursive;
+}
+.btn2{
+    padding: 3px;
+    display: flex;
+    border: 3px solid black;
+    background-color:blueviolet;
+    color: black;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 12px auto;
+    font-family: 'Baloo Bhai', cursive;
+}
+.btn2:hover{
+    background-color: red;
+    
+}
